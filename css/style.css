@@ -1,0 +1,697 @@
+      @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+      * {
+          font-family: 'Karla', sans-serif;
+          box-sizing: border-box;
+      }
+
+@media screen and (min-width: 481px) {
+
+      #header {
+
+          
+          background: #D49D7AFF;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+      }
+
+
+      #nav {
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          
+      }
+
+      #nav li {
+          margin: 0.3em;
+          float: left;
+          list-style: none;
+          justify-content: space-around;
+            text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-size: 1.5vw;
+      }
+
+      li a {
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-size: 1.5vw;
+      }
+
+      header select {
+        margin-left: 2vw;
+        appearance: none;
+        border: none;
+        font-size: 1.5vw;
+        font-weight: bold;
+        background-color: #D49D7AFF;
+      }
+
+
+
+     /*1st main part begin*/
+
+      #intro {
+          display: flex;
+          flex-direction: column;
+
+      }
+
+      .picture {
+          background-image: url('../images/instrument.jpg');
+          margin-top: 1vw;
+          opacity: 0.9;
+          width: 100%;
+          height: 15%;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+
+      }
+
+      #teamdescription {
+          position: relative;
+          background-color: #D49D7AFF;
+          opacity: 0.9;
+          width: 50%;
+          padding: 1vw;
+          font-size: 1.3vw;
+          text-align: justify;
+      }
+
+     
+
+      #whatwedo {
+          display: flex;
+          flex-direction: row;
+          font-size: 1.5vw;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        
+
+      }
+ 		#whatwedo h3 {
+        text-align: center;
+      }
+
+      #whatwedo img {
+          flex-wrap: wrap;
+          border-radius: 50%;
+          height: auto;
+          width: 14vw;
+          height: auto;
+               }
+
+      #jobscontent {
+      padding: 0vw 3vw 0vw 3vw;
+      text-align: center; 
+      font-size: 1.25vw;  }
+
+/*first main part en*/
+/*second main part begin*/
+
+      .members {
+          border-color: #D49D7AFF;
+          border-style: solid;
+          border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+          padding: 1vw;
+          margin: 1vw 0vw 1vw 0vw;
+      }
+ 
+      #team h1 {
+          width: 100%;
+          background-color: #D49D7AFF;
+          opacity: 0.9;
+          font-size: 2.5vw;
+          padding: 0vw 0vw 0vw 1vw;
+      }
+
+      #team > div {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          font-size: 1vw;
+          padding: 2vw;
+      }
+
+	
+
+      #team img {
+          flex-wrap: wrap;
+          border-radius: 2%;
+         transition: 0.3s;
+          width: 18vw;
+          justify-content: space-evenly;
+
+      }
+	#team img:hover {
+          box-shadow: 0 0 0.5vw 0.5vw grey;
+          transition: 0.3s;
+      }
+        /*second main part end*/
+        /*footer begin*/
+
+      #footermain {
+
+          background-color: #1A1A1A;
+          width: 100%;
+          height: 10vw;
+          display: flex;
+          flex-flow: row;
+          justify-content: space-between;
+          
+      }
+
+      #footermenu {
+          width: 50vw;
+          padding-top: 1vw;
+          display: flex;
+          flex-flow: row; 
+          text-align: center;
+          justify-content: center;
+
+
+      }
+
+
+
+	#footermenu li {
+	display: inline-block;
+	padding: 0vw 0.5vw 0vw 0.5vw;
+	text-align: center;
+	}
+
+
+      #footermenu li a {
+          font-size: 1.5vw;
+          color: white;
+
+      }
+
+      footer select {
+        margin-left: 2vw;
+        appearance: none;
+        border: none;
+        font-size: 1.5vw;
+        font-weight: bold;
+        background-color: #1A1A1A;
+        color: white;
+      }
+
+
+      .footertext {
+          width: 30%;
+          margin: 1vw 4vw 1vw 4vw;
+          color: white;
+          font-size: 1.25vw;
+          align-self: center;
+          text-align: left;
+      }
+
+      #adress {
+          text-align: right;
+         
+      }
+}
+      /*footer end*/
+      /*person page below*/
+
+
+#backgroundA {
+  background: url("../images/backgroundanna.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  padding: 5vw 0vw 5vw 0vw
+}
+
+#backgroundB {
+  background: url("../images/backgroundbruno.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  padding: 5vw 0vw 5vw 0vw
+}
+
+#backgroundT {
+  background: url("../images/backgroundthomas.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  padding: 5vw 0vw 5vw 0vw
+}
+
+#backgroundG {
+  background: url("../images/backgroundgeorg.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  padding: 5vw 0vw 5vw 0vw
+}
+
+.person {
+  
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  width: 80vw;
+  height: 35vw;
+  margin: auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   background-color: rgba(234, 234, 234, 0.6);
+   border-radius: 5vw;
+  }
+
+
+.card {
+  width: 30vw;
+  max-height: 35vw
+ 
+ }
+
+.card img {width: 25vw;
+  border-radius: 3vw;
+  max-height: 30vw;
+  object-fit: cover;
+  margin: 2.5vw 2.5vw 2.5vw 2.5vw;
+  border: solid black 0.025vw;
+ }
+
+.content {
+  
+  width: 50vw;
+  padding: 2vw 2vw 2vw 2vw;
+  line-height: 1.5vw;
+  font-size: 1vw;
+  text-align: justify;
+  
+}
+
+.content h1 {
+  padding: 0vw 0vw 1vw 0vw;
+}
+
+
+/*contact part styling*/
+
+#contact {
+    font-size: 2.5vw; 
+    width: 30vw;
+    height: 44vw; 
+    display: flex; 
+    flex-direction: column;
+    position: fixed; 
+    bottom: 0; 
+    right: 0; 
+    background-color: white; 
+    display:none;
+    padding: 0vw 1vw 0vw 1vw;
+    justify-content: flex-start;
+    border: solid grey 0.1vw;
+       }
+
+
+#textarea { 
+    height: 20vw; 
+    width: 28vw; 
+    font-size: 1vw; 
+        }
+
+.inputname { 
+    width: 28vw; 
+    font-size: 1.5vw; 
+   
+                 }
+
+.namelabel { 
+     width: 28vw;
+     height: 2vw;
+     font-size: 1.5vw; 
+     
+          }
+
+
+#buttondiv { 
+  width: 100%; 
+  padding: 1vw;
+  height: 3vw;
+  text-align: center; 
+}
+
+
+#sendbutton { 
+  height: 2vw; 
+  width: 20vw; 
+  border-radius: 0.5vw; 
+  background-color: lightblue; 
+  color: black; 
+  font-size: 1.5vw;
+ }
+
+#minimize { 
+  height: 3vw; 
+  width: 6vw; 
+  border-radius: 50%; 
+  background-color: lightblue; 
+  color: black; 
+  font-size: 2vw; 
+  margin: 2vw 0vw 0vw 0vw;
+}
+
+#contactbuttondiv { 
+  display: flex; 
+  position: fixed; 
+  bottom: 0; 
+  right: 0; 
+
+}
+
+#contactbutton { 
+  height: 5vw; 
+  width: 15vw; 
+  border-radius: 1.5vw; 
+  background-color: lightblue; 
+  color: black; 
+  font-size: 3vw; 
+}
+
+
+/*media queries mobil for main page and header footer*/
+
+@media screen and (max-width: 481px) {
+
+      #header {
+          
+          background: #D49D7AFF;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+      }
+
+
+      #nav {
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          
+      }
+
+      #nav li {
+          margin: 0.3em;
+          float: left;
+          list-style: none;
+          justify-content: space-around;
+            text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-size: 3vw;
+      }
+
+      li a {
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-size: 2.5vw;
+      }
+
+      header select {
+        margin-left: 2vw;
+        appearance: none;
+        border: none;
+        font-size: 2.5vw;
+        font-weight: bold;
+        background-color: #D49D7AFF;
+      }
+
+
+     
+
+     /*1st main part begin*/
+
+      #intro {
+          display: flex;
+          flex-direction: column;
+
+      }
+
+      .picture {
+          background-image: url('../images/instrument.jpg');
+          margin-top: 1vw;
+          opacity: 0.9;
+          width: 100%;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          display: flex;
+          flex-flow: column;
+
+      }
+
+      #teamdescription {
+          position: relative;
+          background-color: #D49D7AFF;
+          opacity: 0.9;
+          width: 100%;
+          padding: 1vw;
+          font-size: 3vw;
+          text-align: justify;
+      }
+
+     
+
+      #whatwedo {
+          display: flex;
+          flex-direction: row;
+          flex: 33%;
+          font-size: 3.5vw;
+          flex-wrap: wrap;
+          justify-content: space-around;
+
+      }
+ 		#whatwedo h3 {
+        text-align: center;
+      }
+
+      #whatwedo img {
+          flex-wrap: wrap;
+          border-radius: 50%;
+          height: auto;
+          width: 33vw;
+          height: auto;
+          justify-content: space-around;
+      }
+
+      #jobscontent {
+      display: none;
+    }
+
+/*first main part en*/
+/*second main part begin*/
+
+      .members {
+          border-color: #D49D7AFF;
+          border-style: solid;
+          border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+          padding: 1vw;
+          margin: 1vw 0vw 1vw 0vw;
+      }
+ 
+      #team h1 {
+          width: 100%;
+          background-color: #D49D7AFF;
+          opacity: 0.9;
+          font-size: 3.5vw;
+      }
+
+      #team > div {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          font-size: 3vw;
+          padding: 2vw;
+      }
+
+	
+
+      #team img {
+          flex-wrap: wrap;
+          border-radius: 2%;
+         transition: 0.3s;
+          width: 33vw;
+          justify-content: space-evenly;
+
+      }
+	#team img:hover {
+          box-shadow: 0 0 0.5vw 0.5vw grey;
+          transition: 0.3s;
+      }
+        /*second main part end*/
+
+      #footermain {
+
+          background-color: #1A1A1A;
+          width: 100%;
+          height: 20vw;
+          display: flex;
+          flex-flow: row;
+          justify-content: space-between;
+          
+      }
+
+      #footermenu {
+         display: none;
+          
+
+      }
+
+
+ 
+ footer select {
+        display: none;
+      }
+
+      .footertext {
+          width: 32%;
+          margin: 1vw 1vw 1vw 1vw;
+          color: white;
+          font-size: 2.5vw;
+          align-self: center;
+          text-align: left;
+      }
+
+      #adress {
+          text-align: right;
+          padding-right: 3vw;
+
+      }
+
+      #contact {display: none;
+      }
+
+      #contactbuttondiv {display: none;
+      }
+
+	.person {
+  
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  width: 80vw;
+  height: 180vw;
+  margin: auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   background-color: rgba(234, 234, 234, 0.6);
+   border-radius: 2.5vw;
+  }
+
+
+.card {
+  width: 50vw;
+  max-height: 45vw
+ 
+ }
+
+.card img {width: 50vw;
+  border-radius: 3vw;
+  max-height: 45vw;
+  object-fit: cover;
+  margin: 2.5vw 2.5vw 2.5vw 2.5vw;
+  border: solid black 0.025vw;
+ }
+
+
+	.content {
+  
+  	width: 50vw;
+  	padding: 2vw 2vw 2vw 2vw;
+  	line-height: 3vw;
+  font-size: 2.5vw;
+  text-align: justify;
+  
+}
+
+.content h1 {
+font-size:4vw;
+line-height: 5vw;
+font-style: normal;
+text-align: center;
+
+}
+
+/*form media querries*/
+#contact {
+    font-size: 2.5vw; 
+    width: 30vw;
+    height: 60vw; 
+    display: flex; 
+    flex-direction: column;
+    position: fixed; 
+    bottom: 0; 
+    right: 0; 
+    background-color: white; 
+    display:none;
+    padding: 0vw 1vw 0vw 1vw;
+    }
+
+
+#textarea { 
+    height: 25vw; 
+    width: 28vw; 
+    font-size: 1.5vw; 
+      
+}
+.inputname { 
+    width: 28vw; 
+    font-size: 2.5vw; 
+             }
+
+.namelabel { 
+     width: 28vw;
+     height: 3vw;
+     font-size: 2.5vw; 
+ 
+          }
+
+
+#buttondiv { 
+  width: 100%; 
+  padding: 1vw;
+  height: 5vw;
+  text-align: center; 
+}
+
+
+#sendbutton { 
+  height: 4vw; 
+  width: 20vw; 
+  border-radius: 0.5vw; 
+  background-color: lightblue; 
+  color: black; 
+  font-size: 2vw;
+ }
+
+#minimize { 
+  height: 4vw; 
+  width: 8vw; 
+  border-radius: 50%; 
+  background-color: lightblue; 
+  color: black; 
+  font-size: 3vw; 
+  margin: 2vw 0vw 0vw 0vw;
+}
+
+#contactbuttondiv { 
+  display: flex; 
+  position: fixed; 
+  bottom: 0; 
+  right: 0; 
+
+}
+
+#contactbutton { 
+  height: 5vw; 
+  width: 15vw; 
+  border-radius: 1.5vw; 
+  background-color: lightblue; 
+  color: black; 
+  font-size: 3vw; 
+}
+
+}
+/*end of media querries*/

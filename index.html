@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    </style>
+</head>
+
+<body>
+</body>
+<header>
+    <div id="header">
+        <!--<h3 class="header">Newspaper </h3>-->
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <select onchange="location = this.value;">
+                        <option selected="true" hidden="true">TEAM</option>
+                        <option id="annanav" value="team/anna.html">Anna</option>
+                        <option id="thomasnav" value="team/thomas.html">Thomas</a></option>
+                        <option id="brunonav" value="team/bruno.html">Bruno</option>
+                        <option id="georgnav" value="team/georg.html">Georg</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div id="intro">
+        <div class="picture">
+            <div id="teamdescription">Description of our team</div>
+        </div>
+        <div id="whatwedo">
+            <div id="hair">Hair</div>
+            <div id="nails">Nails</div>
+            <div id="facemask">Facemask</div>
+            <div id="bodyhair">Bodyhair removal</div>
+           </div>
+            <div id="jobscontent"></div>
+    </div>
+    <div id="team">
+        <h1>Our Team</h1>
+        <div class="members">
+            <div id="member1">
+                <p id="prof1"></p>
+                <p id="name1"></p>
+                <p id="email1"></p>
+            </div>
+            <div id="member2">
+                <p id="prof2"></p>
+                <p id="name2"></p>
+                <p id="email2"></p>
+            </div>
+            <div id="member3">
+                <p id="prof3"></p>
+                <p id="name3"></p>
+                <p id="email3"></p>
+            </div>
+            <div id="member4">
+                <p id="prof4"></p>
+                <p id="name4"></p>
+                <p id="email4"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="JS/jobs.js"></script>
+</main>
+<div id="contact">
+    <form id="form">
+             <label for="text" class="namelabel">Your message</label>
+            <textarea name="text" type="text" id="textarea"></textarea>
+           <label for="name" class="namelabel">Your name</label>
+            <input name="name" type="text" class="inputname">
+            <label for="email" class="namelabel">Your e-mail address</label>
+            <input name="email" type="text" class="inputname">
+                                   <div id="buttondiv">
+            <input type="button" class="button" id="sendbutton" value="Send">
+         </div>
+            <input id="minimize" type="button" class="button" value=">>">
+
+
+</form>
+</div>
+<div id="contactbuttondiv">
+    <input type="button" class="button" id="contactbutton" onclick="contact.html" target="_blank" value="Contact">
+</div>
+<footer>
+    <div id="footermain">
+        <div class="footertext" id="opening">
+            <span>Opening Times<br>Mo - Fr 09:00 - 17:00<br>Sa - Su closed</span>
+        </div>
+        <div id="footermenu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <select id="footerselect" onchange="location = this.value;">
+                        <option selected="true" hidden="true">Team</option>
+                        <option id="annanav" value="team/anna.html">Anna</option>
+                        <option id="thomasnav" value="team/thomas.html">Thomas</a></option>
+                        <option id="brunonav" value="team/bruno.html">Bruno</option>
+                        <option id="georgnav" value="team/georg.html">Georg</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <span class="footertext" id="adress">
+            Beauty Salon CF<br>Paradise Street 007 <br>1007 Vienna
+        </span>
+    </div>
+</footer>
+<script type="text/javascript" src="JS/script.js"></script>
+
+</html>
+<!--header ends here-->
+<!--navbar starts here-->
